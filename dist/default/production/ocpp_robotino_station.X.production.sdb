@@ -1,0 +1,77 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F819 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"32 C:\Users\nikgal-local\Desktop\PIC\ocpp_robotino_station.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"605 C:\Program Files\Microchip\xc8\v2.20\pic\include\proc\pic16f819.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"612
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"761
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"768
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S31 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"799
+[s S37 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S45 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S48 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S51 . 1 `S31 1 . 1 0 `S37 1 . 1 0 `S45 1 . 1 0 `S48 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES51  1 e 1 @31 ]
+"934
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"996
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1158
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"1279
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"1448
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"1455
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"1627
+[v _BF BF `VEb  1 e 0 @1184 ]
+"1795
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"1804
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"26 C:\Users\nikgal-local\Desktop\PIC\ocpp_robotino_station.X\main.c
+[v _VOLT_MSB VOLT_MSB `ui  1 e 2 0 ]
+"27
+[v _VOLT_LSB VOLT_LSB `ui  1 e 2 0 ]
+"29
+[v _CURR_MSB CURR_MSB `ui  1 e 2 0 ]
+"30
+[v _CURR_LSB CURR_LSB `ui  1 e 2 0 ]
+"32
+[v _main main `(i  1 e 2 0 ]
+{
+"109
+} 0
